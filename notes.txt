@@ -1,0 +1,5 @@
+composer update --no-scripts
+
+composer require doctrine/orm
+
+php artisan doctrine:generate:repositories
